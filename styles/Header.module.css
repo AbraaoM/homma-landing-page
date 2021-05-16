@@ -1,0 +1,18 @@
+.logotipo{
+    font-family: 'Roboto', sans-serif;
+    color: #50fa7b !important;
+    font-size: 35px;
+}
+
+.cta{
+    background: #50fa7b; 
+    border-color: #50fa7b;  
+    color: black; 
+    font-weight: 600;
+}
+.cta:hover{
+    background: #50fa7b; 
+    border-color: #50fa7b;  
+    color: white; 
+    font-weight: 600;
+}

@@ -1,23 +1,29 @@
 import { Container, Col, Row, Image, Button, Jumbotron } from "react-bootstrap"
 
+import styles from '../styles/Hero.module.css'
+
 export default function Hero(){
     return (
-        <Container>
-            <Row className="justify-content-md-center">
-                <Col className="justify-content-md-center">
+        <Container id = 'hero' 
+                    className={styles.heroContainer}
+                    fluid>
+            <Row xs="1" lg="2" className="justify-content-md-center">
+                <Col className={styles.heroText}>
                 <Jumbotron>
-                    <h1>Hello, world!</h1>
+                    <h1>Transforme sua idéia em código!</h1>
                     <p>
-                        This is a simple hero unit, a simple jumbotron-style component for calling
-                        extra attention to featured content or information.
+                        Te ajudamos a tirar sua ideia do papel, seja ela um indicador, robô, script, painel gráfico ou qualquer outra ferramenta útil para te auxiliar no dia a dia do mercado financeiro.
                     </p>
                     <p>
-                        <Button variant="primary">Learn more</Button>
+                        <Button href="#signup" className={styles.heroButton} size="lg"> Peça o Seu orçamento </Button>
                     </p>
                 </Jumbotron>
                 </Col>
                 <Col className="justify-content-md-center ">
-                    <Image src="/hero-image.svg" size="50"/>
+                    <Image 
+                        className={styles.heroImage}
+                        src="/hero-image.svg"
+                    />
                 </Col>
             </Row>
         </Container>

@@ -1,29 +1,31 @@
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav, Container, Button } from 'react-bootstrap'
+
+import styles from '../styles/Header.module.css'
 
 export default function Header(){
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Homma</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown>
-                </Nav>
-                <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                    Dank memes
-                </Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
+        <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+            <Container>
+            <Navbar.Brand className={styles.logotipo} href="#hero">
+                {/* <img
+                    alt=""
+                    src="/LogoMarca.svg"
+                    width="50"
+                    height="50"
+                    className="align-center"
+                />{' '} */}
+                Homma
+            </Navbar.Brand>
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                    <Nav className="mr-auto">
+                        <Nav.Link href="#feature">Features</Nav.Link>
+                        <Nav.Link href="#hiw">HIW</Nav.Link>
+                        <Button href="#signup" className={styles.cta}> Peça o Seu orçamento </Button>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+            
         </Navbar>
     )
 }
