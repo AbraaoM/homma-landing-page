@@ -1,0 +1,21 @@
+.footerContainer{
+    background: #212529;
+    color: white;
+    text-align: center;
+}
+
+.footerText {
+    color:white;
+    padding: 1rem;
+}
+
+.footerText ul li{
+    list-style-type: none;
+    padding: 0.7rem;
+    text-align: left;
+}
+
+.madeWithLove{
+    color: white;
+    text-align: center;
+}

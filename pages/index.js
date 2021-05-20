@@ -16,7 +16,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Feature/>
-      <HIW/>
+      {/* <HIW/> */}
       <Signup/>
       <Footer/>
     </div>

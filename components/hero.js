@@ -10,12 +10,19 @@ export default function Hero(){
             <Row xs="1" lg="2" className="justify-content-md-center">
                 <Col className={styles.heroText}>
                 <Jumbotron>
-                    <h1>Transforme sua idéia em código!</h1>
+                    <h1>Turn your best ideia into code!</h1>
                     <p>
-                        Te ajudamos a tirar sua ideia do papel, seja ela um indicador, robô, script, painel gráfico ou qualquer outra ferramenta útil para te auxiliar no dia a dia do mercado financeiro.
+                        We help you get your idea out of the paper, be it an indicator, 
+                        robot, script, graphic panel or any other useful tool to help you 
+                        in the day-to-day of the financial market.
                     </p>
                     <p>
-                        <Button href="#signup" className={styles.heroButton} size="lg"> Peça o Seu orçamento </Button>
+                        <Button 
+                            href="#signup" 
+                            className={styles.heroButton} 
+                            size="lg"> 
+                            Contact Us 
+                        </Button>
                     </p>
                 </Jumbotron>
                 </Col>

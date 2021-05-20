@@ -14,10 +14,10 @@ export default function Feature(){
                     <Card border="light" className={styles.featureCards}>
                         <Card.Body>
                             <Card.Title>
-                                <FaChartLine size="60"/> {' '}  Indicadores
+                                <FaChartLine size="60"/> {' '}  Indicators
                             </Card.Title>
                             <Card.Text>
-                                Desenvolvemos indicadores gráficos que te auxiliam na tomada de decisão.
+                                We develop chart indicators to help you in your decision-making.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -26,10 +26,10 @@ export default function Feature(){
                     <Card border="light" className={styles.featureCards}>
                         <Card.Body>
                             <Card.Title>
-                                <FaRobot size="60"/> {' '}  Robôs
+                                <FaRobot size="60"/> {' '}  Robots
                             </Card.Title>
                             <Card.Text>
-                                Implementamos robôs automatizados para sua estratégia.
+                                We automate your strategy in a robot.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -38,10 +38,10 @@ export default function Feature(){
                     <Card border="light" className={styles.featureCards}>
                         <Card.Body>
                             <Card.Title>
-                                <FaTools size="60"/> {' '}  Manutenção
+                                <FaTools size="60"/> {' '}  Maintenance
                             </Card.Title>
-                            <Card.Text>
-                                Atualizamos, consertamos e melhoramos seus códigos mql antigos.
+                            <Card.Text>                  
+                                We update, repair and improve your old mql codes.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -50,10 +50,11 @@ export default function Feature(){
                     <Card border="light" className={styles.featureCards}>
                         <Card.Body>
                             <Card.Title>
-                                <FaEllipsisH size="60"/>{' '} O que você precisar
+                                <FaEllipsisH size="60"/>{' '} What else you need
                             </Card.Title>
                             <Card.Text>
-                                Desenvolvemos soluções para os mais diversos problemas envolvendo o mercado financeiro e o Metatrader, entre em contato nós podemos te ajudar.
+                                We develop solutions for the most diverse problems involving the 
+                                financial market and Metatrader, contact us we can help you.
                             </Card.Text>
                         </Card.Body>
                     </Card>

@@ -14,14 +14,14 @@ export default function Header(){
                     height="50"
                     className="align-center"
                 />{' '} */}
-                Homma
+                Homma.tech
             </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#feature">Features</Nav.Link>
-                        <Nav.Link href="#hiw">HIW</Nav.Link>
-                        <Button href="#signup" className={styles.cta}> Peça o Seu orçamento </Button>
+                        {/* <Nav.Link href="#feature">Features</Nav.Link> */}
+                        {/* <Nav.Link href="#hiw">HIW</Nav.Link> */}
+                        <Button href="#signup" className={styles.cta}> Contact Us </Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

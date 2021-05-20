@@ -1,13 +1,13 @@
 .featureContainer{
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .featureItem{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2%;
+    padding: 1.5rem;
 }
 
 .featureCards{

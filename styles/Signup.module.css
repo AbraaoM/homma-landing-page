@@ -1,0 +1,46 @@
+.signupContainer{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.signupButton{
+    background: #50fa7b; 
+    border-color: #50fa7b;  
+    color: black; 
+    font-weight: 600;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+.signupButton:hover{
+    background: #50fa7b; 
+    border-color: #50fa7b;  
+    color: white; 
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .signupContainer{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    
+    .signupButton{
+        background: #50fa7b; 
+        border-color: #50fa7b;  
+        color: black; 
+        font-weight: 600;
+        padding: 0.7rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .signupButton:hover{
+        background: #50fa7b; 
+        border-color: #50fa7b;  
+        color: white; 
+        font-weight: 600;
+    }
+  }
