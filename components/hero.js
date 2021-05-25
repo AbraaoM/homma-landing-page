@@ -30,6 +30,7 @@ export default function Hero(){
                     <Image 
                         className={styles.heroImage}
                         src="/hero-image.svg"
+                        alt="Hero image"
                     />
                 </Col>
             </Row>
